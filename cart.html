@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-comm website by Soumya</title>
+    <link rel="stylesheet" href="E-comm.css">
+    <link rel="stylesheet" href="E-commstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Lora:ital,wght@1,600&family=Mukta:wght@200;300;400;500&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,500&family=Ubuntu:ital,wght@0,300;0,400;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="logo arrange-left wid-25">
+                <h1><span>E</span><span>-Comm</span></h1>
+            </div>
+            <div class="search-product arrange-left wid-50">
+                <input type="text" placeholder="Search for products" id="">
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div class="selected-product arrange-left wid-25">
+                <button class="common-btn"><span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        0</span></button>
+                <button class="common-btn"><span>
+                        <i class="fa-solid fa-heart"></i>
+                        0</span></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="full-banner wrapper">
+
+        <div class="shop-header">
+            <h1>Your Cart Details</h1>
+            <h3>- Your Cart -</h3>
+        </div>
+
+        <div class="wrapper next-row">
+            <div class="wid-75 arrange-left">
+                <div class="cart-details">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Price</th>
+                                <th>Qunatity</th>
+                                <th>Total</th>
+                                <th>Remove</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-with-img"><img src="/item-4.jpg" alt=""><span>Women leather jacket</span></td>
+                                <td>599</td>
+                                <td><div class="quantity-input">
+                                    <button>-</button>
+                                    <input type="text" value="1">
+                                    <button>+</button>
+                                </div></td>
+                                <td>599</td>
+                                <td><i class="fa fa-remove icon custom-delete-button"></i></td>
+                            </tr>
+
+                            <tr>
+                                <td class="text-with-img"><img src="/item-3.jpg" alt=""><span>Boys T-shirt</span></td>
+                                <td>899</td>
+                                <td><div class="quantity-input">
+                                    <button>-</button>
+                                    <input type="text" value="1">
+                                    <button>+</button>
+                                </div></td>
+                                <td>899</td>
+                                <td><i class="fa fa-remove icon custom-delete-button"></i></td>
+                            </tr>
+
+                            <tr>
+                                <td class="text-with-img"><img src="/item-7.jpg" alt=""><span>Men's solid shirt</span></td>
+                                <td>599</td>
+                                <td><div class="quantity-input">
+                                    <button>-</button>
+                                    <input type="text" value="1">
+                                    <button>+</button>
+                                </div></td>
+                                <td>599</td>
+                                <td><i class="fa fa-remove icon custom-delete-button"></i></td>
+                            </tr>
+
+                            <tr>
+                                <td class="text-with-img"><img src="/item-1.jpg" alt=""><span>Checkerd shirt</span></td>
+                                <td>499</td>
+                                <td><div class="quantity-input">
+                                    <button>-</button>
+                                    <input type="text" value="1">
+                                    <button>+</button>
+                                </div></td>
+                                <td>499</td>
+                                <td><i class="fa fa-remove icon custom-delete-button"></i></td>
+                            </tr>
+
+                            <tr>
+                                <td class="text-with-img"><img src="/item-8.jpg" alt=""><span>Girl's Dress</span></td>
+                                <td>999</td>
+                                <td><div class="quantity-input">
+                                    <button>-</button>
+                                    <input type="text" value="1">
+                                    <button>+</button>
+                                </div></td>
+                                <td>999</td>
+                                <td><i class="fa fa-remove icon custom-delete-button"></i></td>
+                            </tr>
+
+                            <tr>
+                                <td class="text-with-img"><img src="/cat-2.jpg" alt=""><span>Women's Gown</span></td>
+                                <td>399</td>
+                                <td><div class="quantity-input">
+                                    <button>-</button>
+                                    <input type="text" value="1">
+                                    <button>+</button>
+                                </div></td>
+                                <td>399</td>
+                                <td><i class="fa fa-remove icon custom-delete-button"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="wid-25 arrange-left">
+                <div class="cart-summary-wrapper">
+                    <div class="coupon-inputs">
+                        <input type="text" placeholder="Enter Your Coupon">
+                        <button>Apply Coupon</button>
+                    </div>
+                    <div class="cart-summary-body">
+                        <div class="cart-summary-item">
+                            <h6>Sub Total</h6>
+                            <h6>1799</h6>
+                        </div>
+                        <div class="cart-summary-item">
+                            <h6>Shipping Charges</h6>
+                            <h6>59</h6>
+                        </div>
+                    </div>
+                    <div class="total-wrapper">
+                        <div class="total-head">
+                            <h4>Total</h4>
+                            <h4>1858</h4>
+                        </div>
+                        <div class="proceed-input">
+                            <button>Proceed to Check Out</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper next-row">
+            <div class="footer">
+                <div class="wid-25 arrange-left margin-right-5">
+                    <div class="logo">
+                        <h1><span>E</span><span>-Comm</span></h1>
+                    </div>
+                    <p class="footer-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit nihil tenetur sequi bhautem consectetur
+                        quam omnis beatae eius facere ad debitis explicabo molestiae facilis! Blanditiis, laudantium
+                        tempora!
+                    </p>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fa fa-map-marker-alt"></i>Puri,Odisha,India
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope"></i>info@ecomm.com
+                        </li>
+                        <li>
+                            <i class="fa fa-phone"></i>+012 345 57890
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="wid-25 quick-links arrange-left">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href=""><i class="fa fa-angle-right"></i><span>Home</span></a></li>
+                        <li><a href=""><i class="fa fa-angle-right"></i><span>About</span></a></li>
+                        <li><a href=""><i class="fa fa-angle-right"></i><span>Contact</span></a></li>
+                        <li><a href=""><i class="fa fa-angle-right"></i><span>Cart</span></a></li>
+                        <li><a href=""><i class="fa fa-angle-right"></i><span>Wishlist</span></a></li>
+                        <li><a href=""><i class="fa fa-angle-right"></i><span>Support</span></a></li>
+                        <!-- <li><a href=""><i class="fa fa-angle-right"></i><span>Home</span></a></li> -->
+                    </ul>
+                </div>
+
+
+                <div class="wid-25 quick-links arrange-left">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href=""><i class="fa fa-angle-right"></i><span>Home</span></a></li>
+                        <li><a href=""><i class="fa fa-angle-right"></i><span>About</span></a></li>
+                        <li><a href=""><i class="fa fa-angle-right"></i><span>Feedback</span></a></li>
+                        <li><a href=""><i class="fa fa-angle-right"></i><span>Complaints</span></a></li>
+                        <li><a href=""><i class="fa fa-angle-right"></i><span>Login</span></a></li>
+                        <li><a href=""><i class="fa fa-angle-right"></i><span>Signup</span></a></li>
+                        <!-- <li><a href=""><i class="fa fa-angle-right"></i><span>Home</span></a></li> -->
+                    </ul>
+                </div>
+
+                <div class="wid-25 arrange-left">
+                    <h3>News Letter</h3>
+                    <input type="name" class="footer-input" placeholder="Enter Your name" name="" id=""><br>
+                    <input type="email" class="footer-input" placeholder="Enter Your email" name="" id="">
+                    <button class="footer-button">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <div class="copy-right-text">
+                @ <b>Soumyashree</b>. All rights Reserved. Designed by <b>Soumyashree Behera</b>
+            </div>
+            <img src="/payments.jpg" alt="">
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
